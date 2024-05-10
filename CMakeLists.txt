@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.13)
 project(mavlink_natnet_bridge)
 add_compile_options(-std=c++17)
 
-execute_process(COMMAND ./install_dependencies.sh)
-
 find_package(Threads REQUIRED)
 list(APPEND CMAKE_PREFIX_PATH "mavlink/install")
 find_package(MAVLink REQUIRED)

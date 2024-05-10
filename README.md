@@ -38,6 +38,7 @@ Application Settings -> Comm Links -> Add:
 ```
 git clone git@github.com:mruggia/mavlink_natnet_bridge.git
 cd mavlink_natnet_bridge
+./install_dependencies.sh
 cmake -Bbuild -H.
 cmake --build build
 ```
